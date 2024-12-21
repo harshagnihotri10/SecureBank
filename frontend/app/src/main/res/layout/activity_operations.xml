@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/operations_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operations"
+        android:textSize="45sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/btnCreditAccount"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Credit Account"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/operations_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnDebitAccount"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Debit Account"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnCreditAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnNameEnquiry"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Name Enquiry"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnDebitAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Transfer"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnNameEnquiry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnUpdateDetails"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnTransfer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Delete Account"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnUpdateDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnGetAllUsers"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Get All Users"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnDeleteAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnRetrieveUserById"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Retrieve User By ID"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnGetAllUsers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnApproveTransaction"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Approve Transaction"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnRetrieveUserById"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnRejectTransaction"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Reject Transaction"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnApproveTransaction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+    <Button
+        android:id="@+id/btnBalanceEnquiry"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Balance Enquiry"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnRejectTransaction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Log Out"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/btnBalanceEnquiry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:padding="12dp" />
+
+
+</RelativeLayout>
+
+
+

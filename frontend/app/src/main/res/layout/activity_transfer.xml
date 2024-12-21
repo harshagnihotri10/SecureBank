@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/transfer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer "
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/source_account_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source Account Number"
+        android:inputType="number"
+        android:layout_below="@id/transfer_title"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:textColor="@color/primaryTextColor" />
+
+    <EditText
+        android:id="@+id/destination_account_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination Account Number"
+        android:inputType="number"
+        android:layout_below="@id/source_account_number_edit_text"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:textColor="@color/primaryTextColor" />
+
+    <EditText
+        android:id="@+id/amount_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/destination_account_number_edit_text"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:textColor="@color/primaryTextColor" />
+
+    <Button
+        android:id="@+id/transfer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/amount_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/transaction_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transaction ID"
+        android:inputType="text"
+        android:enabled="false"
+        android:layout_below="@id/transfer_button"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:textColor="@color/primaryTextColor" />
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BankApp</string>
+
+    <!-- Login and registration page strings -->
+    <string name="login_title">Login</string>
+    <string name="register_title">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <!-- API URLs -->
+    <string name="api_base_url">http://localhost:8080/</string>
+    <string name="login_url">api/user/login</string>
+    <string name="register_url">api/user</string>
+    <string name="name_enquiry_url">api/user/balanceEnquiry</string>
+    <string name="credit_url">api/user/credit</string>
+    <string name="debit_url">api/user/debit</string>
+    <string name="transfer_url">api/user/transfer</string>
+    <string name="retrieve_user_by_id_url">api/user/%d</string>
+    <string name="update_user_url">api/user/%d</string>
+    <string name="delete_user_url">api/user/%d</string>
+    <string name="approve_transaction_url">api/transactions/approve/%d</string>
+    <string name="reject_transaction_url">api/transactions/reject/%d</string>
+    <string name="get_all_users_url">api/user</string>
+
+
+    <string name="error_login_failed">Login failed. Please check your credentials.</string>
+    <string name="success_login">Login successful!</string>
+    <string name="error_registration_failed">Registration failed. Please try again.</string>
+    <string name="success_registration">Registration successful!</string>
+    <string name="error_api">API request failed. Please try again later.</string>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+            <item name="colorPrimary">@color/design_default_color_primary</item>
+            <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+            <item name="colorAccent">@color/coloraccent</item>
+        </style>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

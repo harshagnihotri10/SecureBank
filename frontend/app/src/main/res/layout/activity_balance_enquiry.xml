@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:padding="16dp">
+
+    <TextView
+        android:id="@+id/balance_enquiry_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance Enquiry"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/balance_enquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Account Number"
+        android:inputType="number"
+        android:layout_below="@id/balance_enquiry_title"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:textColor="@color/primaryTextColor" />
+
+    <Button
+        android:id="@+id/enquire_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Enquire Balance"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/balance_enquiry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/balance_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance Information will appear here"
+        android:paddingTop="16dp"
+        android:layout_below="@id/enquire_button"
+        android:textColor="@color/primaryTextColor" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Back to Operations"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/balance_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

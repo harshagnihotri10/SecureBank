@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Name TextView -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_marginTop="16dp" />
+
+    <!-- Email TextView -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Account Number TextView -->
+    <TextView
+        android:id="@+id/accountNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Number"
+        android:textSize="16sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_below="@id/emailTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Balance TextView -->
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textSize="16sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_below="@id/accountNumberTextView"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

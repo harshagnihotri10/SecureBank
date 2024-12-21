@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/enquire_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Enquiry"
+        android:textSize="45sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/account_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Account Number"
+        android:inputType="number"
+        android:layout_below="@id/enquire_title"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:textColor="@color/primaryTextColor" />
+
+    <Button
+        android:id="@+id/enquire_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enquire"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/account_number_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here."
+        android:textColor="@color/black"
+        android:layout_below="@id/enquire_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Operations"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor"
+        android:layout_below="@id/result_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+</RelativeLayout>
+
+
+
+
