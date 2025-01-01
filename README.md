@@ -11,7 +11,6 @@ SecureBank is a comprehensive banking application built with Spring Boot and Mav
 6. [Frontend Setup](#frontend-setup)
 7. [Error Handling](#error-handling)
 8. [Technologies Used](#technologies-used)
-9. [Contrubuting](#contributing)
 
 ## Project Overview
 
@@ -183,7 +182,3 @@ Example:
 
 ---
 
-## Contributing
-Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
-
----
