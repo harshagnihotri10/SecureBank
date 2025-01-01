@@ -47,67 +47,67 @@ SecureBank is a banking application built with a Spring Boot backend and a nativ
 
 ---
 
-## Screenshots
+## Screenshots  
 
 #### Home Screen  
-<img src="SecureBank/screenshots/home-page.jpg" alt="Home Screen" width="200" />  
+<img src="screenshots/home-page.png" alt="Home Screen" width="200" />  
 
 #### Login Page  
-<img src="SecureBank/screenshots/login-page.jpg" alt="Login Page" width="200" />  
+<img src="screenshots/login-page.jpg" alt="Login Page" width="200" />  
 
 #### Registration Page  
-<img src="SecureBank/screenshots/registration.jpg" alt="Registration Page" width="200" />  
+<img src="screenshots/registration.jpg" alt="Registration Page" width="200" />  
 
 #### Operations Page  
-<img src="SecureBank/screenshots/operations-page.jpg" alt="Operations Page" width="200" />  
+<img src="screenshots/operations-page.png" alt="Operations Page" width="200" />  
 
-#### Operations Page  
-<img src="SecureBank/screenshots/account-details.jpg" alt="Operations Page" width="200" />  
+#### Account Details Page  
+<img src="screenshots/account-details.jpg" alt="Account Details Page" width="200" />  
 
 #### Credit Account Page  
-<img src="SecureBank/screenshots/credit-page.jpg" alt="Credit Account Page" width="200" />  
+<img src="screenshots/credit-page.jpg" alt="Credit Account Page" width="200" />  
 
 #### Debit Account Page  
-<img src="SecureBank/screenshots/debit-page.jpg" alt="Debit Account Page" width="200" />  
+<img src="screenshots/debit-page.jpg" alt="Debit Account Page" width="200" />  
 
 #### Transfer Account Page  
-<img src="SecureBank/screenshots/transfer-page.jpg" alt="Transfer Account Page" width="200" />  
+<img src="screenshots/transfer-page.jpg" alt="Transfer Account Page" width="200" />  
 
 #### Transaction Approval Page  
-<img src="SecureBank/screenshots/approval-page.jpg" alt="Transaction Approval Page" width="200" />  
+<img src="screenshots/approval-page.jpg" alt="Transaction Approval Page" width="200" />  
 
 #### Transaction Rejection Page  
-<img src="SecureBank/screenshots/rejection-page.jpg" alt="Transaction Rejection Page" width="200" />  
+<img src="screenshots/rejection-page.png" alt="Transaction Rejection Page" width="200" />  
 
 #### Balance Enquiry Page  
-<img src="SecureBank/screenshots/balance-enquiry-page.jpg" alt="Balance Enquiry Page" width="200" />  
+<img src="screenshots/balance-enquiry-page.png" alt="Balance Enquiry Page" width="200" />  
 
 #### Name Enquiry Page  
-<img src="SecureBank/screenshots/name-enquiry-page.jpg" alt="Name Enquiry Page" width="200" />  
+<img src="screenshots/name-enquiry-page.png" alt="Name Enquiry Page" width="200" />  
 
 #### Update Account Page  
-<img src="SecureBank/screenshots/update-page.jpg" alt="Update Account Page" width="200" />  
+<img src="screenshots/update-page.png" alt="Update Account Page" width="200" />  
 
 #### Delete Account Page  
-<img src="SecureBank/screenshots/delete-page.jpg" alt="Delete Account Page" width="200" />  
+<img src="screenshots/delete-page.png" alt="Delete Account Page" width="200" />  
 
 #### Toast  
-<img src="SecureBank/screenshots/acc_no_toast.jpg" alt="Toast Notification" width="200" />  
-<img src="SecureBank/screenshots/approval-toast.jpg" alt="Toast Notification" width="200" />  
-<img src="SecureBank/screenshots/credit-toast.jpg" alt="Toast Notification" width="200" />  
-<img src="SecureBank/screenshots/debit-toast.jpg" alt="Toast Notification" width="200" />  
+<img src="screenshots/acc_no_toast.jpg" alt="Account Number Toast Notification" width="200" />  
+<img src="screenshots/approval-toast.jpg" alt="Approval Toast Notification" width="200" />  
+<img src="screenshots/credit-toast.jpg" alt="Credit Toast Notification" width="200" />  
+<img src="screenshots/debit-toast.jpg" alt="Debit Toast Notification" width="200" />  
 
 #### Database  
-<img src="SecureBank/screenshots/workbench.jpg" alt="Database View" width="200" />  
+<img src="screenshots/workbench.png" alt="Database View" width="200" />  
 
 #### Swagger-UI  
-<img src="SecureBank/screenshots/swagger_ui.jpg" alt="Swagger-UI" width="200" />  
+<img src="screenshots/swagger-ui.png" alt="Swagger-UI" width="200" />  
 
 #### Postman API Hit  
-<img src="SecureBank/screenshots/account-creation-response.jpg" alt="Postman API Hit" width="200" />  
-<img src="SecureBank/screenshots/postman-registration-api.jpg" alt="Postman API Hit" width="200" />  
+<img src="screenshots/account-creation-response.png" alt="Postman API Account Creation Response" width="200" />  
+<img src="screenshots/postman-registration-api.png" alt="Postman Registration API" width="200" />  
 
----
+---  
 
 ## Backend Setup
 
